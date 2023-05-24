@@ -1,7 +1,7 @@
 FROM docker.io/alpine:3.18
 
 ARG TARGETARCH=arm64
-ARG VERSION=0.15.3
+ARG VERSION=0.16.2
 
 ENV FILENAME="pocketbase_${VERSION}_linux_${TARGETARCH}"
 
